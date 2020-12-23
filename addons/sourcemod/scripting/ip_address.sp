@@ -69,7 +69,7 @@ stock bool IsValidClient(int client, bool AllowBot = true, bool AllowDeath = tru
 	}
 	if(!AllowSpectator)
 	{
-		if(GetClientTeam(client) == 3)
+		if(GetClientTeam(client) == 1)
 		{
 			return false;
 		}
